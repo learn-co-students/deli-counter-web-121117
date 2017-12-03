@@ -15,8 +15,7 @@ end
 
 def take_a_number(arr, newbie)
   arr.push(newbie)
-  place = arr.size
-  puts "Welcome, #{newbie}. You are number #{place} in line."
+  puts "Welcome, #{newbie}. You are number #{arr.length} in line."
 end
 
 def now_serving(arr)
